@@ -30,7 +30,7 @@ async def on_message(message):
         await client.send_message(message.channel,'beep')
 
     if(message.content == '*rand'):
-        await client.send_message(message.channel, random.randint(100, 999))
+        await client.send_message(message.channel, random.randint(0, 999))
 
     if(message.content == '*randpa'):
         await client.send_message(message.channel, random.choice(['Te amo','Te odio','La verdad es dura como la verdura','Aqui algo me huele mal','La vida es una lenteja o la tomas o la dejas',':D',':(']))
