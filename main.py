@@ -35,4 +35,4 @@ async def on_message(message):
     if(message.content == '*randpa'):
         await client.send_message(message.channel, random.choice(['Te amo','Te odio','La verdad es dura como la verdura','Aqui algo me huele mal','La vida es una lenteja o la tomas o la dejas',':D',':(']))
 
-client.run('NDkzNjIwMjQzNDQ5Nzc0MDgx.DossQg.7_DmTGAe2HcFdc3JXoZeSrRrgpM')
+    @bot.comand()
