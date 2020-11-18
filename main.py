@@ -16,7 +16,7 @@ async def on_ready():
     print('Numero del ID: ', client.user.id)
     print('----------')
 
-
+#Metodo dle cliente
 @client.event
 async def on_message(message):
 
